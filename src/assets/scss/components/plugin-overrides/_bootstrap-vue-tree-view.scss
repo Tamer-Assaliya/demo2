@@ -1,0 +1,19 @@
+.tree-node {
+  font-size: 14px;
+  padding: 5px;
+}
+.tree-node {
+  .tree-node-label {
+    &:hover {
+      background-color: transparent;
+    }
+  }
+}
+.ctx-menu-container {
+  .ctx-menu {
+    background: $dark;
+    .ctx-item {
+      color: $white;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+
+
+.context-menu-styled {
+    .v-context {
+        &, & ul {
+            padding: 4px 0;
+            background: $dark;
+            > li {
+               > a {
+                    padding: 4px 8px;
+                    color: $white;
+                    i {
+                        padding-right: 5px;
+                    }
+                    &:hover {
+                        background: $black;
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+    
+}
